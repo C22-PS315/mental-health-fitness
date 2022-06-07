@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Mental Fitness</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">title_profile</string>
+    <string-array name="data_question">
+        <item>"I found myself getting upset by quite trivial things."</item>
+        <item>"I was aware of dryness of my mouth."</item>
+        <item>"I couldn't seem to experience any positive feeling at all."</item>
+        <item>"I experienced breathing difficulty"</item>
+        <item>"I just couldn't seem to get going."</item>
+        <item>"I tended to over-react to situations."</item>
+        <item>"I had a feeling of shakiness (eg, legs going to give way)."</item>
+        <item>"I found it difficult to relax."</item>
+        <item>"I found myself in situations that made me so anxious I was most relieved when they ended."</item>
+        <item>"I felt that I had nothing to look forward to."</item>
+        <item>"I found myself getting upset rather easily."</item>
+        <item>"I felt that I was using a lot of nervous energy."</item>
+        <item>"I felt sad and depressed."</item>
+        <item>"I found myself getting impatient when I was delayed in any way (eg, elevators, traffic lights, being kept waiting)."</item>
+    </string-array>
+</resources>
