@@ -39,7 +39,13 @@ class ListQuestionAdapter(private val listQuestion: ArrayList<Question>) :
             ).show()
 
         }
-        holder.rbquestion1.setOnClickListener()
+        holder.rbquestion1.setOnClickListener{
+            Toast.makeText(
+                holder.itemView.context,
+                "Kamu memilih " + listQuestion[holder.adapterPosition].questions,
+                Toast.LENGTH_SHORT
+            ).show()
+        }
 
     }
 
