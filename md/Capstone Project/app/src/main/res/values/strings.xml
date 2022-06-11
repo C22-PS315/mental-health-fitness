@@ -10,6 +10,8 @@
     <string name="recommend_article">Recommendation Article</string>
     <string name="author">Author</string>
     <string name="article_date">Article Date</string>
+    <string name="sp_desc">Order faster, fill the passenger data with one click</string>
+    <string name="mr_desc">Come on, tell us about your experience</string>
     <string-array name="data_question">
         <item>"I found myself getting upset by quite trivial things."</item>
         <item>"I was aware of dryness of my mouth."</item>
@@ -25,5 +27,11 @@
         <item>"I felt that I was using a lot of nervous energy."</item>
         <item>"I felt sad and depressed."</item>
         <item>"I found myself getting impatient when I was delayed in any way (eg, elevators, traffic lights, being kept waiting)."</item>
+    </string-array>
+    <string-array name="clinicLocation">
+        <item>Purwokerto</item>
+        <item>Banyumas</item>
+        <item>Purbalingga</item>
+        <item>Cilacap</item>
     </string-array>
 </resources>

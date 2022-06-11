@@ -12,14 +12,20 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.irfanrizqulloh.capstone.mentalfitness.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_article"
+        android:name="com.irfanrizqulloh.capstone.mentalfitness.ui.article.ArticleFragment"
+        android:label="Article"
+        tools:layout="@layout/fragment_article" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.irfanrizqulloh.capstone.mentalfitness.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_clinic"
+        android:name="com.irfanrizqulloh.capstone.mentalfitness.ui.clinic.ClinicFragment"
+        android:label="Clinic"
+        tools:layout="@layout/fragment_clinic" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.irfanrizqulloh.capstone.mentalfitness.ui.clinic.ClinicFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_clinic" />
 </navigation>
