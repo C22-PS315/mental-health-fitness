@@ -1,7 +1,0 @@
-Label Anxiety
-
-0 : Normal
-1 : Parah
-2 : Ringan
-3 : Sangat Parah
-4 : Sedang
