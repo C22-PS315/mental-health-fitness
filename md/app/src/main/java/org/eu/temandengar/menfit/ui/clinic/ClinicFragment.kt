@@ -1,4 +1,4 @@
-package com.irfanrizqulloh.capstone.mentalfitness.ui.clinic
+package org.eu.temandengar.menfit.ui.clinic
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import android.widget.Spinner
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.irfanrizqulloh.capstone.mentalfitness.R
+import org.eu.temandengar.menfit.R
 
 
 class ClinicFragment : Fragment() {

@@ -1,14 +1,14 @@
-package com.irfanrizqulloh.capstone.mentalfitness
+package org.eu.temandengar.menfit
 
 import android.os.Bundle
-import android.view.View
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
-import com.irfanrizqulloh.capstone.mentalfitness.databinding.ActivityMainBinding
+import org.eu.temandengar.menfit.R
+import org.eu.temandengar.menfit.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -22,7 +22,11 @@ class MainActivity : AppCompatActivity() {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         val appBarConfiguration = AppBarConfiguration.Builder(
-                R.id.navigation_home, R.id.navigation_article, R.id.navigation_clinic, R.id.navigation_profile).build()
+            R.id.navigation_home,
+            R.id.navigation_article,
+            R.id.navigation_clinic,
+            R.id.navigation_profile
+        ).build()
         setupActionBarWithNavController(navController, appBarConfiguration)
         binding.navView.setupWithNavController(navController)
     }

@@ -1,4 +1,4 @@
-package com.irfanrizqulloh.capstone.mentalfitness.ui.article
+package org.eu.temandengar.menfit.ui.article
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

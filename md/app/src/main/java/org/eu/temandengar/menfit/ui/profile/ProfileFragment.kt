@@ -1,4 +1,4 @@
-package com.irfanrizqulloh.capstone.mentalfitness.ui.profile
+package org.eu.temandengar.menfit.ui.profile
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -6,7 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.irfanrizqulloh.capstone.mentalfitness.R
+import org.eu.temandengar.menfit.R
 
 class ProfileFragment : Fragment() {
 
