@@ -1,4 +1,4 @@
-package com.irfanrizqulloh.capstone.mentalfitness
+package org.eu.temandengar.menfit
 
 import org.junit.Test
 

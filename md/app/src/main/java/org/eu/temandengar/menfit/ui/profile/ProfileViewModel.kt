@@ -1,4 +1,4 @@
-package com.irfanrizqulloh.capstone.mentalfitness.ui.profile
+package org.eu.temandengar.menfit.ui.profile
 
 import androidx.lifecycle.ViewModel
 

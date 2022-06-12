@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.irfanrizqulloh.capstone.mentalfitness">
+    package="org.eu.temandengar.menfit">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MentalFitness">
-        <activity android:name=".QuestionActivity">
+        <activity android:name="org.eu.temandengar.menfit.QuestionActivity">
 <!--            <intent-filter>-->
 <!--                <action android:name="android.intent.action.MAIN" />-->
 
@@ -17,7 +17,7 @@
 <!--            </intent-filter>-->
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="org.eu.temandengar.menfit.MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

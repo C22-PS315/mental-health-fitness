@@ -1,12 +1,11 @@
-package com.irfanrizqulloh.capstone.mentalfitness
+package org.eu.temandengar.menfit
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.irfanrizqulloh.capstone.mentalfitness.R
-import com.irfanrizqulloh.capstone.mentalfitness.databinding.ActivityMainBinding
-import com.irfanrizqulloh.capstone.mentalfitness.databinding.ActivityQuestionBinding
+import org.eu.temandengar.menfit.R
+import org.eu.temandengar.menfit.databinding.ActivityQuestionBinding
 import java.util.*
 
 class QuestionActivity : AppCompatActivity() {

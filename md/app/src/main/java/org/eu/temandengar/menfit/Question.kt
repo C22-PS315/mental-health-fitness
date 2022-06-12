@@ -1,4 +1,4 @@
-package com.irfanrizqulloh.capstone.mentalfitness
+package org.eu.temandengar.menfit
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

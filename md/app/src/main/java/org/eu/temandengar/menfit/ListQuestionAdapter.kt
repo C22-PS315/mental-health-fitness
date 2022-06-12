@@ -1,13 +1,13 @@
-package com.irfanrizqulloh.capstone.mentalfitness
+package org.eu.temandengar.menfit
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.RadioButton
-import android.widget.RadioGroup
 import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
+import org.eu.temandengar.menfit.R
 import java.util.*
 
 class ListQuestionAdapter(private val listQuestion: ArrayList<Question>) :
