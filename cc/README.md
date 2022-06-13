@@ -2,6 +2,8 @@
 
 ## High-level Architecture
 
+![High-level Architecture](https://drive.google.com/uc?export=view&id=1umoOmmjY2fi5cFbGN8aBFPJ_tuD6HPrh)
+
 Here’s the high-level architecture view of what technology that we use inside Firebase. The idea of using the Firebase is that we can use their Firebase SDK to directly communicate with the client.
 
 He’re we have some of Firebase products. We deploy our custom model (in another words .tflite) to Firebase Machine Learning so that we can cut-off our installation size. Using Firebase ML allow us to swap the ML model without republishing our app.
